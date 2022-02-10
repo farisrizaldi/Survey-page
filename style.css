@@ -1,0 +1,114 @@
+body{
+  background-color: #000;
+}
+#title{
+    color: #fff;
+    width: 1080px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #survey-form{
+    color: #000;
+    background-color: #fff;
+    width: 600px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 3px;
+}
+.form{
+    padding: 25px 25px 25px 25px;
+}
+#name-label{
+    padding-left: 25px;
+}
+#email-label{
+    padding-left: 25px
+}
+#number-label{
+    padding-left: 25px
+}
+.select-model{
+    margin-top: 15px;
+}
+.features{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.form-inputs{
+    display: block;
+    width: 500px;
+    height: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3px;
+    border-radius: 3px;
+}
+
+#description{
+    text-align: center;
+    color: #fff;
+    width: 1080px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+#img-caption{
+    width: 1080px;
+    color: #fff;
+    margin-top: 35px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#image{
+    max-width: 57%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+#image:hover{
+    transform: scale(0.975);
+}
+#dropdown{
+    margin-top: 15px;
+    width: 410px;
+    height: 2rem;
+}
+.model_color{
+  margin-bottom: 5px;
+  
+}
+.textarea{
+  margin-top: 15px;
+}
+#textarea{
+    width: 500px;
+}
+.submit-button{
+    width: 100px;
+    height: 35px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.submit-button:hover{
+    background-color: #fff;
+    color: #000;
+    transform: scale(0.9);
+}
+hr{
+  width: 550px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:549:1889"></script>
+<script src="https://fonts.google.com"></script>
+<link rel="stylesheet" href="style.css"/>
+
+
+<div id="main">
+   <body>
+  <h1 id="title">Toyota Prius Purchase</h1>
+  <p id="description" >There is no denying that the primary appeal of the Toyota Prius is fuel-efficiency.</p>
+  
+  <div id="img-div">
+  <a id="tribute-link" target="_blank" href="https://www.toyota.com/prius/features/mpg_other_price/1221/1223/1263">
+ <img id="image" src="https://global.toyota/pages/prius20th/evolution/history/images/evolution_top_main_visual_pc.jpg" alt="main photo" /img>
+  </a>
+    
+    <h2 id="img-caption"> 
+    Thank you for trusting us! Please fill out the form below to choose your prius.</h2>
+     </div>
+  
+  
+  <form id="survey-form">
+    <div class="form">
+    <label for="name" id="name-label">Name </label>
+    <input id="name" type="text" name="name" placeholder="Faris Rizaldi" class="form-inputs" required> </input>
+    <br>
+    <label for="email" id="email-label">Email </label>
+    <input id="email" type="email" name="email" placeholder="Myemail@google.com" class="form-inputs" required> </input>
+    <br>
+    <label for="number" id="number-label">Age </label>
+    <input id="number" type="number" name="number" placeholder="23" min="17" max="100" class="form-inputs" required> </input>
+<br>
+
+  
+  <div class="select-model">
+    <label for"dropdown" id="model"> <b>Select Model </b></label>
+<select id="dropdown" type="dropdown" name="dropdown">
+  <option value="Toyota Prius Plug-in Hybrid"> Toyota Prius Plug-in Hybrid</option>
+  <option value="Toyota Prius Prime"> Toyota Prius Prime</option>
+    <option value="Toyota Prius V"> Toyota Prius V</option>
+    <option value="Toyota Prius C"> Toyota Prius C</option>
+</select>
+ <br>
+<br>
+</div>
+
+<div class="model_color">
+<label for="model_color" id="model_color"> <b>Model Color: </b></label>  
+  <br>
+</div>
+<input id="model_color" type="radio" id="Blizzard_Pearl" name="color" value="Blizzard Pearl">
+  <label for="model_color"> Blizzard Pearl </label>
+  <br>
+<input id="model_color" type="radio" id="Classic_Silver_Metallic" name="color" value="Classic Silver Metallic">
+  <label for="model_color"> Classic Silver Metallic </label>
+  <br>
+<input id="model_color" type="radio" id="Magnetic_Gray_Metallic" name="color" value="Magnetic Gray Metallic">
+  <label for="model_color"> Magnetic Gray Metallic </label>
+  <br>
+<input id="model_color" type="radio" id="Midnight_Black_Metallic" name="color" value="Midnight Black Metallic">
+  <label for="model_color"> Midnight Black Metallic </label>
+  <br>
+<input id="model_color" type="radio" id="Electric_Storm_Blue" name="color" value="Electric Storm Blue">
+  <label for="model_color"> Electric Storm Blue </label>
+  <br>
+<input id="model_color" type="radio" id="Sea_Glass_Pearl" name="color" value="Sea Glass Pearl">
+  <label for="model_color"> Sea Glass Pearl </label>
+<br>
+<input id="model_color" type="radio" id="Supersonic_Red"  name="color" value="Supersonic Red">
+  <label for="model_color"> Supersonic Red </label>
+<br>
+<br>
+  
+ <div class="features"> 
+<label for="features"> <b> Add features: </b> </label>
+<br>
+ </div>
+<input id="checkbox" type="checkbox" name="features" value="JBL audio">
+<label for="checkbox"> Premium JBL Audio 12 Speakers - $8.000 </label>
+<br>
+<input id="checkbox" type="checkbox" name="features" value="360 camera">
+<label for="checkbox"> Camera 360° "Eagle Eye" - $6.000 </label>
+<br>
+<input id="checkbox" type="checkbox" name="features" value="Pius AWD-e system">
+<label for="checkbox"> Prius AWD-e system operates at speeds up to 43 mph - $12.000 </label>
+<br>
+
+  
+  
+<div class="textarea">
+<label id="textarea"  Additional Comments </label>
+<br>
+<textarea id="textarea" name="instructions" rows="5" cols="40"></textarea>
+<hr>
+
+
+<input id="submit" type="submit" value="Place Order" class="submit-button">
+<div>
+</div>
+</form>
+
+
+
+
+</body>
+</div
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
